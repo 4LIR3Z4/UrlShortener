@@ -1,0 +1,12 @@
+@com.alirezab.url_shortener.api_HostAddress = http://localhost:5199
+
+GET {{com.alirezab.url_shortener.api_HostAddress}}/u/m
+Accept: text/html
+
+###
+Post {{com.alirezab.url_shortener.api_HostAddress}}/u/
+Content-Type: application/json
+
+{
+    "longUrl": "https://github.com/"
+}
